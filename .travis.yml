@@ -6,6 +6,8 @@ dotnet: 3.0.100
 #- dotnet restore
 
 script:
+- ls ~/.local/share
+- ls /usr/local/share
 - cat ~/.nuget/NuGet/NuGet.Config
 - dotnet restore
 - dotnet build
