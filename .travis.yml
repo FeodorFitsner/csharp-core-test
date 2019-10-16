@@ -6,5 +6,6 @@ dotnet: 3.0.100
 #- dotnet restore
 
 script:
+- cat ~/.nuget/NuGet/NuGet.Config
 - dotnet build
 #- dotnet test Core.Shogi.Tests/Core.Shogi.Tests.csproj
